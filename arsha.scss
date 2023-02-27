@@ -1,0 +1,17 @@
+$padding: 0px 5px 0px 5px;
+
+$bg-color:bg-success;
+
+$h1-font:70px;
+
+navbar li a{
+    padding: $padding;
+}
+
+.section-1{
+    background-color: $bg-color;
+}
+
+.section-1 h1{
+    font-size: $h1-font;
+}

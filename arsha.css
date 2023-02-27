@@ -1,0 +1,331 @@
+/* .navbar{
+text-decoration-color: white!important;
+background-color: #2376d2!important;
+} */
+.main-col{
+    text-decoration: #37517e!important;
+}
+.btn-outline-info{
+    border-radius: 25px!important;
+}
+.progressbar-using{
+     justify-content: space-between;
+}
+nav{
+    background-color: #37517e!important;
+    color: white;
+    padding-top: 10px;
+}
+nav .header{
+    display: flex;
+flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    align-items: baseline;
+}
+nav .header .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    font-size: 30px;
+}
+nav .header ul li a  {
+    color: white!important;
+    padding-right: 20px!important;
+}
+nav .header ul li a:hover{
+    color:blue!important ;
+}
+nav .header .dropdown-menu a{
+    color: black!important;
+}
+nav .btn{
+    border-radius: 25px;
+    padding:5px 20px ;
+    color: white;
+}
+nav .btn:hover{
+    background-color:skyblue;
+}
+/* .navbar-brand {
+    font-size: 30px!important;
+}
+.navbar .navbar-right .dropdown-menu{
+    position: absolute;
+}
+.navbar .navbar-btn-1{
+    border-radius: 25px;
+}
+.navbar .navbar-right .navbar-nav .nav-item  a:hover {
+    color:blue !important;
+} */
+.section-1 .row h1{
+    font-size: 50px;
+}
+.section-1 .row h3{
+    font-size: 22px;
+    padding-bottom: 50px;
+} 
+.section-1 .section-1-right img{
+    padding: 50px;
+}
+.section-1 .section-1-btn-1{
+    border-radius: 25px;
+}
+
+header {
+    background-color: #37517e;
+}
+.section-1{
+    background-color: #37517e;
+}
+.section-2 .row .col-lg-2 img{
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    filter: grayscale(1);
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+.section-2 .row .col-lg-2 img:hover{
+    filter:none;
+    transform: scale(1.1);
+}
+.section-3 ul li{
+    list-style-type: none;
+}
+.section-3 h1{
+    padding: 25px;
+    font-size: 30px;
+}
+.section-3 .row p{
+    font-size: 18px;
+}
+.section-3{
+    padding: 30px;
+}
+.section-3 .row ul li{
+    font-size: 18px;
+}
+.section-3 .section-3-btn-1:hover{
+    color: white!important;
+
+}
+.section-4{
+    padding: 50px;
+}
+.section-4 .accordion-button {
+       box-shadow: none;
+}
+.section-4 .accordion-button h6{
+    font-size: 17px;
+}
+.section-4 .accordion-button h6:hover{
+    color: blue;
+}
+.section-4 .accordian-body{
+    margin-bottom: 50px;
+}
+.section-5{
+    padding: 5%;
+}
+.section-5 h1{
+    font-size: 30px;
+}
+.section-5 h6{
+    font-size: 12px;
+    color: blue;
+}
+.section-6{
+    padding: 20px 40px;
+}
+.section-6 .heading h1{
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+.section-6 .heading p{
+    font-size: 17px;
+}
+.section-6 .row .card{
+    width: 23%;
+    padding: 2%;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.section-6 .row .card img{
+    width: 40px;
+    padding-bottom: 10px;
+}
+.section-6 .row .card h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.section-6 .row .card p{
+    font-size: 15px;
+} 
+
+.section-6 .row .card:hover{
+    transform: translate(0,-10px);
+}
+.section-7{
+    background-image: url(./IMAGES/cta-bg.jpg);
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+.section-7 h1{
+    font-size: 25px;
+}
+.section-7 .btn{
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+}
+.section-7 .section-7-btn-1:hover{
+    background-color:deepskyblue;
+    border-color: deepskyblue;
+}
+.section-9{
+    padding: 30px;
+
+}
+.section-9 .team-img{
+    border-radius: 50%;
+    padding: 15%;
+}
+.section-9 .cards{
+    padding: 5%;
+}
+.section-9 h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.section-9 .img-icon:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.section-9 .cards .col .card{
+    transition: 0.3s;
+}
+.section-9 .cards .col .card:hover{
+    transform: translate(0,-10px);
+}
+
+.section-10 .heading h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.section-10 h1{
+    font-size: 50px;
+}
+.section-10 button{
+    border-radius: 25px;
+}
+.section-10 .col{
+    width: 32%;
+    padding-left: 0%;
+}
+.section-10 h4{
+    font-size: 20px;
+}
+.section-11 h1{
+    font-size: 30px;
+}
+ .section-11 .section-11-accordians{
+    padding: 1% 12% 5% 12%;
+ }
+ .section-11 .heading p{
+    padding: 1% 7% 0% 7%;
+ }
+.section-11 .section-11-accordians .accordion .accordion-item .accordion-header .accordion-button h6{
+    font-size: 17px;
+ }
+ .section-11 .section-11-accordians .accordion .accordion-item .accordion-header .accordion-button h6:hover{
+color:deepskyblue!important;
+ }
+.section-12 h1{
+    font-size: 30px;
+}
+.section-12 img{
+    border: 1px solid aquamarine;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:aquamarine;
+
+}
+.section-12 img:hover{
+    background-color: blue;
+}
+.section-12 .section-12-btn{
+    border-radius: 25px;
+}
+.section-12-right{
+    border-bottom: 3px solid aquamarine!important;
+    border-top: 3px solid aquamarine!important;
+
+}
+.section-12-left{
+    
+    border-bottom: 3px solid aquamarine!important;
+    border-top: 3px solid aquamarine!important;
+}
+.section-12 .heading h1{
+    font-size: 30px;
+}
+.section-12 h1{
+    font-size: 20px;
+}
+.section-12 .heading p{
+    padding:0% 10% 0% 10%!important;
+}
+.section-13 .heading h1{
+font-size: 30px;
+}
+.section-13 input{
+    border: 1px solid white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.section-13 .section-13-btn{
+    border-radius: 25px;
+}
+ .section-14 .logo{
+    color: #37517e;
+    font-size: 30px;
+ }
+ .section-14  h6 {
+    font-size: 13px;
+    color:grey;
+ }
+.section-14 h1{
+    font-size: 15px;
+    color: #37517e;
+}
+.section-14 ul li{
+    padding-bottom: 10px;
+    color: grey;
+}
+.section-14 img{
+    width: 30px;
+    height: 30px;
+    border:1px solid none;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 5px;
+}
+.section-14 img:hover{
+    background-color: aqua;
+}
+.section-15 p{
+    font-size: 15px;
+}
+.section-15 .text-right{
+    font-size: 13px;
+}
