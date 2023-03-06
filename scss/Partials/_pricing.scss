@@ -1,0 +1,50 @@
+#pricing {
+    padding: $sectionpadding;
+    .heading{
+      h1 {
+        @include heading;
+      }
+      p {
+        padding-bottom: $bottompadding;
+      }
+    }
+    .middle-card{
+      border-top: 4px solid #47b2e4;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    .card {
+      padding: $sectionpadding;
+      .card-body {
+        margin-left: 20px;
+      }
+      h4 {
+        color: $bg-color;
+        font-size: 20px;
+      }
+      h1 {
+        color: $bg-color;
+        font-size: 50px;
+      }
+      img {
+        margin-right: 10px;
+      }
+      p {
+        color: #999;
+      }
+      .text-info {
+        padding-bottom: $bottompadding;
+      }
+      .section-10-btn-middle{
+        @include btn2;
+        color: $bg-color2!important;
+      }
+      .last-line {
+        padding-bottom: $bottompadding;
+      }
+      .btn {
+     @include btn;
+     color: $hovercolor;
+      }
+    }
+  }

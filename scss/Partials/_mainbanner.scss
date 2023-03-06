@@ -1,0 +1,21 @@
+#main-banner {
+    color: $fontcolor;
+    background-color: $bg-color;
+    h1 {
+      font-size: 45px;
+      font-weight: 700;
+    }
+    h3 {
+      font-size: 25px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+    .buttons {
+      padding-top: 50px;
+      img{
+        width: 30px;
+      }
+    .section-1-btn-1 {
+       @include btn2;
+      }
+    }
+  }

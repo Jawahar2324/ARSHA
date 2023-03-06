@@ -1,0 +1,39 @@
+#services {
+    padding: $sectionpadding;
+    background-color: $bg-color2;
+    h1 {
+      @include heading;
+    }
+    .container {
+      padding-bottom: $bottompadding;
+    }
+    .card {
+      margin-left: 15px;
+      width: 23%;
+      transition: 0.3s;
+      border-radius: 0px;
+  
+      img {
+        width: 30px;
+        padding-bottom: $bottompadding;
+        padding-top: $toppadding;
+      
+      }
+      h2 {
+        color: $bg-color;
+        font-size: 25px;
+        padding-bottom: $bottompadding;
+      }
+      p {
+        text-align: left;
+        padding-bottom: $bottompadding;
+      
+      }
+    }
+    .card:hover {
+      transform: translate(0, -10px);
+      h2 {
+        color: #47b2e4;
+      }
+    }
+  }

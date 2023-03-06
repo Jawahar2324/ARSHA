@@ -1,0 +1,28 @@
+@mixin btn {
+    border-radius: $borderradius !important;
+    color: $fontcolor;
+    padding: $btnpadding;
+    border: $btnborder;
+  &:hover {
+    background-color:$hovercolor;
+    color: $bg-color2;
+  }
+  }
+  @mixin btn2{
+    border-radius: $borderradius;
+    color: $fontcolor;
+    border: 2px solid #209dd8;
+    background-color: $hovercolor;
+    padding: $btnpadding !important;
+    &:hover {
+      color: white;
+      background-color: #209dd8;
+      
+    }
+  }
+  
+  @mixin heading {
+    color: $bg-color;
+    text-align: center;
+    font-size: $fontsize;
+  }

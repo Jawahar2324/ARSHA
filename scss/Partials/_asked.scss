@@ -1,0 +1,24 @@
+#asked-questions {
+    padding: $sectionpadding;
+    background-color: $bg-color2;
+    h1 {
+      @include heading;
+    }
+    .section-11-accordians {
+      padding: 2% 15% 2% 15%;
+      h6 {
+        color: $bg-color;
+        font-size: 18px;
+      &:hover{
+    color: #47b2e4 !important;
+  }
+      }
+     
+      img{
+        width: 24px;
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: white;
+        box-shadow: none;
+    }}
+  }

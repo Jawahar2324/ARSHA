@@ -1,0 +1,32 @@
+#team {
+    padding: $sectionpadding;
+    background-color: $bg-color2;
+    h1 {
+      @include heading;
+    }
+    .card {
+      transition: 0.3s;
+    
+      h5 {
+        color: $bg-color;
+      }
+      .card-text {
+        text-align: left;
+      }
+      .team-img {
+        border-radius: 50%;
+        padding: 20px;
+      }
+      .img-icon {
+        border-radius: 50%;
+        margin: 3px;
+      }
+      .img-icon:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+    .card:hover {
+      transform: translate(0, -10px);
+    }
+  }

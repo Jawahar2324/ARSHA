@@ -1,0 +1,27 @@
+#Voluptatem {
+    padding: $sectionpadding;
+    h1 {
+      font-size: $fontsize;
+      color: $bg-color;
+    }
+    p {
+      color: $bg-color;
+    }
+    .progress{
+      border-radius: 0;
+      height: 10px;
+    }
+    .progress-bar {
+      color: $bg-color;
+      background-color:$bg-color;
+    }
+    .progressbar-using {
+      display: flex;
+      justify-content: space-between;
+      color: $bg-color;
+      
+      h6 {
+        font-size: 12px;
+      }
+    }
+  }

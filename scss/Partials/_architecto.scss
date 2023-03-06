@@ -1,0 +1,25 @@
+#architecto{
+    padding: $sectionpadding;
+    background-color: $bg-color2;
+    h1 {
+      color: $bg-color;
+      font-size: $fontsize;
+    }
+    p {
+      color: #848484;
+    }
+    h6{
+      font-size: 17px;
+      .points{
+        color: #47b2e4;
+  
+      }
+    }
+    h6:hover{
+      color: #47b2e4;
+    }
+    .accordion-button:not(.collapsed){
+      background-color: white;
+      box-shadow: none;
+      }
+  }

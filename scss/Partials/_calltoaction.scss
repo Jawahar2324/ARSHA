@@ -1,0 +1,16 @@
+.section-7 {
+    background-image: url(./IMAGES/cta-bg.jpg);
+    background-attachment: fixed;
+    padding: $sectionpadding;
+    h1 {
+      font-size: $fontsize;
+      color: $fontcolor;
+    }
+    p {
+      color: $fontcolor;
+    }
+    .section-7-btn-1 {
+   @include btn;
+      border-color: $bg-color2;
+  }
+  }

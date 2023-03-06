@@ -1,0 +1,22 @@
+#new-sletter {
+    padding: $sectionpadding;
+    background-color: $bg-color2;
+    h1 {
+    font-size: 25px;
+    color: $bg-color;
+    }
+    p {
+      text-align: center;
+    }
+    input {
+      width: 35%;
+      border-bottom-left-radius: 25px;
+      border-top-left-radius: 25px;
+      border:2px solid white;
+    }
+    .section-13-btn {
+    @include btn2;
+    margin-left: -20px;
+      
+    }
+  }

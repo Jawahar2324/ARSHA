@@ -1,0 +1,16 @@
+#about-us {
+  padding: $sectionpadding;
+  h1 {
+@include heading;
+    padding-bottom: $bottompadding;
+  }
+  img {
+    margin-right: 5px;
+  }
+  .section-3-btn{
+    @include btn;
+    color: #47b2e4;
+    border-radius: 5px!important;
+    padding: 5px 20px;
+  }
+}

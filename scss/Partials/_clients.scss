@@ -1,0 +1,15 @@
+#clients {
+    background-color: $bg-color2;
+  
+    img {
+      width: 100px;
+      padding: 28px 5px 28px 5px;
+      margin-left: 50px;
+      filter: grayscale(1);
+      transition: 1.5s;
+     &:hover {
+      filter: none;
+      transform: scale(1.2);
+    }
+  }
+  }

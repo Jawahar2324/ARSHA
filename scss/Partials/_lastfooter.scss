@@ -1,0 +1,13 @@
+#last-footer{
+    padding: 25px 10px;
+    background-color: $bg-color;
+    .text-right{
+      .last-text{
+        color: rgb(71, 178, 228)!important;
+        &:hover{
+          color: #73c5eb!important;
+        }
+      }
+      
+    }
+  }
